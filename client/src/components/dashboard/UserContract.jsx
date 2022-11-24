@@ -5,7 +5,7 @@ import IERC20 from "../../contracts/IERC20.json";
 import {useEth} from "../../contexts/EthContext";
 import DashboardEvents from "./DashboardEvents";
 import WhitelistCard from "../whitelist/WhitelistCard";
-import Stats from "./stats";
+import Stats from "./Stats";
 import {ClipboardIcon} from "@heroicons/react/24/outline";
 import {quickToast, runTx} from "../../utils";
 
