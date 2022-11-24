@@ -1,0 +1,26 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "Truffle project with SimpleStorage contract",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^2.1.1",
+    "dotenv": "^16.0.3",
+    "truffle": "5.6.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "ganache": "^7.5.0",
+    "truffle-plugin-stdjsonin": "git+https://github.com/mhrsalehi/truffle-plugin-stdjsonin.git",
+    "truffle-plugin-verify": "^0.6.0"
+  },
+  "scripts": {
+    "test": "npx truffle test",
+    "compile": "npx truffle compile",
+    "deploy": "npx truffle migrate",
+    "migrate-dev": "npx truffle migrate --reset"
+  },
+  "author": "Zerohix.lens",
+  "license": "MIT"
+}

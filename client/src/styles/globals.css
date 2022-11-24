@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+
+a {
+    @apply text-blue-600 underline font-medium
+}
+p {
+    @apply pb-3
+}
+hr {
+    @apply my-4
+}
+ h2 {
+     @apply text-xl font-bold mb-2
+ }
+details {
+    @apply border-gray-300 border p-3 rounded-xl mb-3
+}
+
+:root {
+    --toastify-icon-color-success: theme('colors.success');
+    --toastify-icon-color-info: theme('colors.info');
+    --toastify-icon-color-warning: theme('colors.warning');
+    --toastify-icon-color-error: theme('colors.error');
+
+    --toastify-color-dark: theme('colors.gray.800');
+    --toastify-color-light: theme('colors.gray.200');
+
+    --toastify-color-info: theme('colors.info');
+    --toastify-color-success: theme('colors.success');
+    --toastify-color-warning: theme('colors.warning');
+    --toastify-color-error: theme('colors.error');
+}
+
+
+@tailwind utilities;
