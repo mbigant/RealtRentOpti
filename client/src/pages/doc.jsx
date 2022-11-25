@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Step from "../components/docs/Step";
-import gelato1 from "../../public/img/doc/gelato-1.png";
+import gelato1 from "/img/doc/gelato-1.png";
 import gelato2 from "../../public/img/doc/gelato-2.png";
 import gelato3 from "../../public/img/doc/gelato-3.png";
 import gelato4 from "../../public/img/doc/gelato-4.png";

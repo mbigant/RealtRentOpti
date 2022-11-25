@@ -2,6 +2,7 @@
   "name": "truffle-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "daisyui": "^2.41.0",
@@ -20,7 +21,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "browserslist": {
     "production": [
@@ -33,6 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "./"
+  }
 }

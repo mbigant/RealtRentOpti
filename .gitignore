@@ -4,3 +4,4 @@
 /truffle/node_modules/
 /truffle/.env
 /client/src/contracts/
+/client/out/
